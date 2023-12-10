@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#cabecalho {
+    background-color: #fff;
+}
+
+.nav .nav-link.active, 
+.nav .nav-link{
+    color: darkorange;
+    background-color: #fff;
+}
+.nav .nav-link:hover{
+    background-color: darkorange;
+    color: #fff;
+}
+
+.section-title{
+    color: darkorange;
+    font-weight: bold;
+}
+
+#sobre-nos {
+    background-color: rgba(255, 140, 0, 0.226);
+}
+
+textarea{
+    resize: none;
+}
+
+.btn.btn-primary{
+    background-color: darkorange;
+    border: none;
+}
+.btn.btn-primary:hover{
+    background-color: rgba(255, 140, 0, 0.808);
+}
+
+@media (min-width:767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

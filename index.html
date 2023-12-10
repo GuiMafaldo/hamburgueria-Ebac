@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Burguer Mania web</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1><img src="/imagem/Logo/burguer mania.png"></h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-nos" class="nav-link botao">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobré Nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link botao">
+                            <i class="bi bi-card-text me-1"></i>
+                            Cardapio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link botao">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="carousel-section">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="/imagem/Logo/logo 1.png" alt="logo site">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <img class="d-block w-100" src="/imagem/Logo/pizza.png" alt="carousel pizza">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <img class="d-block w-100" src="/imagem/Logo/hamburguer 1.png" alt="hamburguer">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </section>
+        <section id="sobre-nos">
+            <div class="container">
+                <div class="row">
+                    <h2 class=" section-title text-center mt-5 mb-5">Sobre Nós</h2>
+                </div>
+                    <div class="row pb-5">
+                        <div class="col-md-12 d-block d-md-flex">
+                            <img class="ms-5 d-block w-100" src="/imagem/Logo/foto p fundo.jpeg" alt="Foto da pizzaria">
+                            <p class="text-center ms-5 fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nulla modi obcaecati dignissimos necessitatibus distinctio, perferendis provident aperiam sint esse voluptatibus quisquam exercitationem velit a voluptas repudiandae beatae nostrum explicabo.</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title mt-5 mb-5 text-center">Cardapio Recomendado</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="/imagem/comida/burger-1553287_640.jpg" alt="Hamburger" class="d-block w-100 rounded">
+                        <h4 class="section-title mt-2">Hamburgers</h4>
+                        <p>Variedade de Hambugueres,
+                            clique no botao abaixo e confira todas as opções
+                        </p>
+                        <button class="btn btn-dark mb-2">Ver mais opções</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/imagem/comida/burgers-1839090_640.jpg" alt="Carnes Grelhadas" class="d-block w-100 rounded">
+                        <h4 class="section-title mt-2">Carnes Grelhadas</h4>
+                        <p>Variedade de Carnes na Grelha para todos os gostos,
+                            clique no botao abaixo e confira todas as opções
+                        </p>
+                        <button class="btn btn-dark mb-2">Ver mais opções</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/imagem/comida/pizza-3007395_1280.jpg" alt="Pizza" class="d-block w-100 rounded">
+                        <h4 class="section-title mt-2">Pizzas</h4>
+                        <p>Variedade de Pizzas, Doces, Salgadas , Brotinhos
+                            clique no botao abaixo e confira todas as opções
+                        </p>
+                        <button class="btn btn-dark mb-2">Ver mais opções</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title mb-4">Entre em Contato Conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold mb-2 mt-2 section-title">Seu Nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold mb-2 mt- section-title">Seu Email:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label  mt-2 mb-2 section-title">Seu Telefone:</label>
+                                <input type="telefone" id="telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label section-title mt-3">Sua mensagem:</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-primary fw-bold mt-2"> Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
